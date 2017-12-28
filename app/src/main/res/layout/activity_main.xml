@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:background="@color/colorPrimary"
+            >
+
+        </android.support.v7.widget.Toolbar>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+
+        android:background="@drawable/button"
+        android:padding="10dp"
+        android:text="Register"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+        android:layout_marginBottom="64dp"
+        android:layout_marginRight="98dp"
+        android:layout_marginEnd="98dp"
+        android:layout_above="@+id/later"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/later"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+
+        android:layout_alignLeft="@+id/register"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/register"
+        android:layout_marginBottom="96dp"
+        android:background="@drawable/button"
+        android:padding="10dp"
+        android:text="Register Later"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault" />
+
+
+</RelativeLayout>
